@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+
+}
+&::after{
+box-sizing: border-box;
+}
+&::after{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    direction: ltr;
+    font-size: 100%;
+    width: 100%;
+    overflow-x: hidden;
+     font-family: "Truculenta", sans-serif;
+
+}
+a{
+    text-decoration: none;
+   color: inherit;
+}
+li{
+    list-style-type: none;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
